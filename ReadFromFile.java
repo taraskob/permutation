@@ -60,7 +60,7 @@ class ReadFromFile {
         String word1 = input.substring(startOfWord, endOfWord);
         permutedString.append(input.substring(0, startOfWord));
         startOfWord = arrowsPosition + 1;
-        endOfWord = input.length();
+        endOfWord = input.length()-1;
         countOfSpace = 0;
         if (input.charAt(startOfWord) != ' ')
             countOfSpace = 1;
