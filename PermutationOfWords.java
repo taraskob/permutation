@@ -10,7 +10,8 @@ public class PermutationOfWords {
             else
                 System.out.println("Read string before and after permutation");
             System.out.println(stringOfWords);
-            System.out.println(ReadFromFile.permuteReadString(stringOfWords));
+            System.out.println(PermuteString.permuteReadString(stringOfWords));
+            System.out.println(PermuteStringRegex.permuteReadStringRegex(stringOfWords));
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (ParseException e) {
